@@ -1,0 +1,216 @@
+body{
+    background-color: #cae7df;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+#navbar{
+    background-color: lightslategray;
+    color: white;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;   
+    margin-right: 50px; 
+}
+
+#navbar li{
+    float: right;
+    display: inline;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase{
+    background-image: url(../images/shameless.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#showcase h1{
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+.main{
+    background-color: coral;
+}
+
+#leftbar{
+    float: left;
+    width: 28%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background: lightslategray;
+    color: #f4f4f4;
+    border-radius: 8px;
+    margin-left: 5%;
+}
+
+#leftbar h1{
+    font-size: 26px;
+    padding: 20px 140px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    float: center;
+}
+
+#leftbar h4{
+    font-size: 20px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+#leftbar p{
+    font-size: 16px;
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#leftbar li{
+    font-size: 16px;
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    list-style: "\1F5FF";
+}
+
+#leftbar ul{
+    font-size: 14px;
+    margin: 0;
+}
+
+#middlebar{
+    float: left;
+    width: 28%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background: lightslategrey;
+    color: #f4f4f4;
+    border-radius: 8px;
+    margin-left: 1%;
+}
+
+#middlebar h1{
+    font-size: 26px;
+    padding: 20px 60px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    float: center;
+}
+
+#middlebar h4{
+    font-size: 20px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+#middlebar p{
+    font-size: 14px;
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#middlebar li{
+    font-size: 16px;
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: "\0D9E";
+}
+
+#rightbar{
+    float: left;
+    width: 28%;
+    padding: 0;
+    box-sizing: border-box;
+    background: lightslategrey;
+    color: #f4f4f4;
+    border-radius: 8px;
+    margin-left: 1%;
+}
+
+#rightbar h1{
+    font-size: 26px;
+    padding: 20px 160px;
+    margin: 0;
+    float: left;
+}
+
+#rightbar a{
+    max-width: 100%;
+    height: auto;
+    margin: 1% 14%;
+}
+
+#rightbar video{
+    max-width: 100%;
+    height: auto;
+    margin: 0% 12%;
+}
+
+#main-footer{
+    background: lightslategrey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-instagram {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-discord {
+    background: #125688;  
+    color: white;  
+}
+
+
+@media(max-width: 600px){
+    #main{
+        width:100%;
+        float:none;
+    }
+    #sidebar{
+        width:100%;
+        float:none;
+    }
+}
